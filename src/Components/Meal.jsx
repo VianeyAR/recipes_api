@@ -61,7 +61,7 @@ const Meal = () => {
         </div>
 
         <div className="abc">
-          <h2>Igual puedes seleccionar una letra y se desglosaran recetas con esa inicial</h2>
+          <h2>Igual puedes seleccionar una letra y se desglosaran recetas con esa inicial 😊</h2>
         </div>
         <div className="indexContainer">
           <RecipeIndex alphaIndex={(alpha) => setIndex(alpha)} />

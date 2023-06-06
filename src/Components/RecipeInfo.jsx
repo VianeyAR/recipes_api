@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Meal from "./Meal";
 let vId = "";
 const RecipeInfo = () => {
@@ -99,18 +99,30 @@ const RecipeInfo = () => {
               </h4>
             </div>
             <div className="instructions">
-              <h2>Instructions</h2>
+              <h3>Instructions</h3>
               <br />
-              <h4>{item.strInstructions}</h4>
+              <h3>{item.strInstructions}</h3>
             </div>
-            <div className="video">
+           
+          </div>
+          <div className="traductor">
+            <a href="https://translate.google.com/?hl=es" target="_blank" >🫠 Si no sabes ingles puedes usar este Traductor &#128516;</a>
+            
+          
+          </div>
+          <div className="video">
               <iframe src={`https://www.youtube.com/embed/${vId}`}></iframe>
             </div>
-          </div>
+            <div className="botoncito">
+            <Link to="/"><button type="button" class="btn btn-danger">👈 Go back </button></Link>
+            </div>
+            
+          
+           
         </>
       )}
     </>
   );
-};
+};            
 
 export default RecipeInfo;
