@@ -78,8 +78,9 @@ body {
 }
 .ingredients,
 .instructions {
-  flex-basis: 50%;
+  flex-basis: 75%;
   text-align: justify;
+  margin: 26px;
 }
 .ingredients h4 {
   margin-top: 1.5rem;
@@ -105,3 +106,16 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.iframe{
+  height: 515px;
+  width: 100%;
+
+
+}
+.video{
+  width: 80%;
+  margin: 3rem;
+ 
+}
+
