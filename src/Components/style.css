@@ -8,29 +8,53 @@
   font-family: "Bona Nova", serif;
 }
 body {
-  background-color: #eebbeb;
+  background-color: #ffe4b5;
 }
 .main {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 .heading h1 {
-  color: #030e12;
-  font-size: 48px;
+  color: #ff810e;
+  font-size: 40px;
   font-weight: 900;
   letter-spacing: 1px;
   padding-top: 2rem;
-  margin: 1rem;
+ 
 }
+
+.inspiracion {
+  display: flex;
+  justify-content: center;
+}
+
+.inspiracion p {
+  color: #9f0050;
+  font-weight: bold;
+  padding: 0px;
+  margin: 20px;
+  font-size: 16px;
+}
+.inspiracion img {
+  width: 150px;
+  border-radius: 18px;
+  background-color: #ff805a;
+  padding: 2px;
+  margin: 20px;
+}
+
 .search-bar {
   margin: 1rem 0;
-  width: 400px;
+  width: 500px;
   height: 40px;
-  border: none;
   outline: none;
   border-radius: 1rem;
   padding: 0.3rem 1rem;
+  color: #ff0909;
+  border: 1.6px solid rgb(241, 1, 1);
+  font-weight: bold;
+  
 }
 .container {
   width: 80%;
@@ -38,12 +62,21 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 2rem;
+  font-weight: bold;
+  color: #ff0909;
+  font-size: 25px;
 }
 .card {
   width: 180px;
   border-radius: 1rem;
-  background-color: #eb48ba;
+  background-color: #ff805a;
   padding: 5px;
+}
+.card:hover {
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.4);
 }
 .card img {
   width: 100%;
@@ -97,25 +130,26 @@ body {
 .numBox {
   width: 50px;
   height: 40px;
-  background-color: #f81090;
+  background-color:  #ff805a;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 0 5px 0 5px;
   border-radius: 10px;
   cursor: pointer;
 }
 
-.iframe{
+.iframe {
   height: 515px;
   width: 100%;
-
-
 }
-.video{
+.video {
   width: 80%;
   margin: 3rem;
- 
 }
-
+.abc{
+  font-weight: bold;
+  color: #e74514;
+  font-size: 15px;
+}

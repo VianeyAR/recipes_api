@@ -7,7 +7,7 @@ const MealItem = ({ data }) => {
   return (
     <>
       {!data
-        ? "No encontrado"
+        ? "Lo sentimos, no hay resultados :("
         : data.map((item) => {
             return (
               <div className="card" key={item.idMeal} onClick={()=>{navigate(`/${item.idMeal}`)}}>
