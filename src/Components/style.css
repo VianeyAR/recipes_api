@@ -73,8 +73,8 @@ body {
   padding: 5px;
 }
 .card:hover {
-  border: 1px solid black;
-  color: black;
+  border: 1px solid rgb(180, 90, 6);
+  color: rgb(117, 57, 0);
   cursor: pointer;
   transform: scale(1.4);
 }
@@ -139,6 +139,13 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+.numBox:hover {
+  border: 1px solid rgb(252, 0, 168);
+  color: rgb(235, 214, 224);
+  background-color: rgb(238, 18, 91);
+  cursor: pointer;
+  transform: scale(1);
+}
 
 .iframe {
   height: 515px;
@@ -152,4 +159,39 @@ body {
   font-weight: bold;
   color: #e74514;
   font-size: 15px;
+}
+
+@media (max-width: 640px){
+  .main{
+    width: 100%;
+  }
+  .search-bar {
+   
+    width: 300px;
+ 
+  }
+  .inspiracion {
+    display: none;
+  }
+  .heading h1 {
+   
+    font-size: 22px;
+  }
+  .abc{ 
+    font-size: 10px;
+  }
+  .numBox {
+    width: 30px;
+    height: 20px;
+    font-size: 6px;
+    background-color:  #ffc456;
+    color: rgb(14, 14, 14);
+    margin: 0;
+    border-radius: 0px;
+  }
+  .container {
+    width: 50%;
+    
+  }
+  
 }
